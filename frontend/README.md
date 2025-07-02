@@ -1,4 +1,4 @@
-# Theacare Demo - Face Capture & Lighting Check
+# Theacare Demo 
 
 A Next.js web application that performs real-time face centering and lighting checks using webcam input. Built with React, MediaPipe Face Detection, Tailwind CSS, and modern browser APIs.
 
