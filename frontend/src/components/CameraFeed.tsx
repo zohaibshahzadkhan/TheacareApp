@@ -12,7 +12,6 @@ export default function CameraFeed({ config }: CameraFeedProps) {
       <div className="bg-gray-800 rounded-2xl shadow-2xl border border-gray-700 overflow-hidden w-full max-w-3xl">
         <div className="bg-gradient-to-r from-blue-600 to-purple-600 px-6 py-4">
           <h2 className="text-xl font-semibold text-white">Camera Preview</h2>
-          <p className="text-blue-100 text-sm mt-1">Real-time face detection</p>
         </div>
 
         <div className="p-6 space-y-5">
