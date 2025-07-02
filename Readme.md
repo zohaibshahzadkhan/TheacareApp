@@ -1,5 +1,17 @@
-Why we keep the full image instead of cropping to just the face:
+# Project Root README
 
-Capturing the full image preserves maximum quality and flexibility for future processing, allowing backend or subsequent steps to perform precise face cropping or additional analysis without losing detail. It also simplifies debugging by retaining full context.
+Welcome to the project! This repository is divided into two main parts:
 
-Trade-off for cropping only the face: While cropping reduces image size and potentially speeds up uploads and processing, it may lower image quality due to client-side resizing and limits flexibility for further analysis or adjustments if the crop is inaccurate.
+### Demo
+
+![Demo Screenshot](./frontend/public/assests/main.png)
+
+![Demo Screenshot](./frontend/public/assests/camera.png)
+
+![Demo Screenshot](./frontend/public/assests/admin.png)
+
+
+- [Frontend](./frontend/README.md) - Contains the client-side application.
+- [Backend](./backend/Readme.md) - Contains the server-side application.
+
+Please click the links above to get detailed documentation for each part.
