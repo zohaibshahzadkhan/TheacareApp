@@ -1,4 +1,4 @@
-# Project Root README
+# Theacare
 
 Welcome to the project! This repository is divided into two main parts:
 
