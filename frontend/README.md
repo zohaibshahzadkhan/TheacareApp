@@ -42,22 +42,20 @@ The app uses a hybrid approach combining:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/theacare-demo.git
-   cd theacare-demo
+   git clone https://github.com/zohaibshahzadkhan/TheacareApp.git
+   cd TheacareApp/frontend
+   ```
+2. Create .env.local file and set this environment variable:
+    ```bash 
+    NEXT_PUBLIC_API_BASE=http://localhost:8000
+    ```
+3. Install dependencies:
+    ```
+    npm install
+    ```
 
-2. Install dependencies:
-  ```npm install
-
-3. Configure environment variables:
-Create .env.local file:
-
-```NEXT_PUBLIC_API_BASE=http://localhost:8000
-```
 4. Run development server:
-   ```npm run dev```
-
-Run development server:
-```
-npm run build
-npm run start
-```
+   
+   ```
+   npm run dev
+  
